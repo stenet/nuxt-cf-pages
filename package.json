@@ -1,0 +1,15 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "npx wrangler pages dev --proxy 3000 -- nuxt dev",
+    "dev:nuxt": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "nuxt": "^3.4.1"
+  }
+}
